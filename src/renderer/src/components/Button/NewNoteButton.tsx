@@ -6,8 +6,8 @@ import { PiFileMdBold } from 'react-icons/pi'
 export const NewNoteButton = ({ ...props }: ActionButtonProps) => {
   const createEmptyNote = useSetAtom(createEmptyNoteAtom)
 
-  const handleNoteSelect = () => {
-    createEmptyNote()
+  const handleNoteSelect = async () => {
+    await createEmptyNote()
   }
 
   return (
