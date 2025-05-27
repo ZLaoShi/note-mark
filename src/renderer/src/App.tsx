@@ -6,6 +6,7 @@ import {
   RootLayout,
   Sidebar
 } from '@/components'
+import '@mdxeditor/editor/style.css'
 import { useRef } from 'react'
 import { ActionButtonsRow } from './components/Button/ActionButtonsRow'
 
